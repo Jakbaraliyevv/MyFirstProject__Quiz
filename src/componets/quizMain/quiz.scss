@@ -1,0 +1,163 @@
+.quiz > div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizImg {
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 2px 10px 1px #fff;
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 70%;
+  }
+}
+
+.fan {
+  border-radius: 14px;
+  width: 316px;
+  height: 118px;
+  box-shadow: 0 2px 10px 1px #fff;
+  background: #fff;
+  cursor: pointer;
+
+  img {
+    width: 23%;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    color: #5b1cae;
+  }
+}
+
+// Responsive
+
+@media (max-width: 1100px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .quiz > div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quizImg {
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 2px 10px 1px #fff;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 50%;
+    }
+  }
+
+  .fan {
+    border-radius: 14px;
+    width: 256px;
+    height: 98px;
+    box-shadow: 0 2px 10px 1px #fff;
+    background: #fff;
+    cursor: pointer;
+
+    img {
+      width: 20%;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p {
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: #5b1cae;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .quiz > div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .quizImg {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 2px 10px 1px #fff;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 42%;
+    }
+  }
+
+  .fan {
+    border-radius: 14px;
+    width: 226px;
+    height: 78px;
+    box-shadow: 0 2px 10px 1px #fff;
+    background: #fff;
+    cursor: pointer;
+
+    img {
+      width: 18%;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      color: #5b1cae;
+    }
+  }
+}
